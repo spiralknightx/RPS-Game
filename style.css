@@ -1,0 +1,56 @@
+* ,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(blue, grey);
+    margin: 0%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    background-color: grey;
+    width: 1000px;
+    height:800px;
+   
+}
+.cpu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    
+}
+.cpu-choice{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.choice-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+    background-color: white;
+    height: 350px;
+    width: 1000px;
+    text-align: center;
+}
+.choices{
+     border: 2px solid;
+    min-height: min-content;
+    min-width: auto;
+    margin: 50px;
+    
+}
+.choices:hover{
+    background-color: gold;
+}
